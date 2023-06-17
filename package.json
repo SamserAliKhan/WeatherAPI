@@ -1,0 +1,15 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "It will a basic weather app that calls a ral time api to get the data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samser Ali Khan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
