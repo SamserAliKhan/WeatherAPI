@@ -16,6 +16,7 @@ app.post('/',function(req,res){
     https.get(url,function(respo){
     respo.on('data',function(data){
         const Data = JSON.parse(data);
+    
         const des = Data.weather[0].description
         const temp = Data.main.temp;
         const imgurl = "https://openweathermap.org/img/wn/"+Data.weather[0].icon+"@2x.png";
@@ -34,5 +35,5 @@ app.get('/',function(req,res){
     
 })
 
-app.listen(3000,function(){
+app.listen(5000,function(){
 });
