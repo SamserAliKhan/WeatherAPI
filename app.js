@@ -4,10 +4,6 @@ const bodyParser = require('body-parser');
 const app = exress();
 app.use(bodyParser.urlencoded({extended: true}))
 
-
-
-
-
 app.post('/',function(req,res){
     const qur= req.body.city;
     const apikey = "4d6ca974b8ba47fd32c97ebdac99563d";
